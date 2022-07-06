@@ -1,0 +1,30 @@
+.contenedor-tarea {
+  width: 500px;
+  min-height: 65px;
+  margin: 5px 0;
+  padding: 8px 15px 8px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  border: 1px solid gray;
+}
+
+.texto-tarea {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-items: center;
+  overflow-wrap: anywhre;
+}
+
+.icono-tarea {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+}
+
+.contenedor-tarea .hecha {
+  text-decoration: line-through;
+}
